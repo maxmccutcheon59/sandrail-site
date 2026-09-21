@@ -95,12 +95,12 @@ export default function Footer() {
             <ul className="space-y-2 text-[var(--text-muted)]">
               <li>
                 <Link href="/privacy" className="hover:text-[var(--accent)]">
-                  Privacy
+                  Privacy (draft)
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="hover:text-[var(--accent)]">
-                  Terms
+                  Terms (draft)
                 </Link>
               </li>
               <li>
