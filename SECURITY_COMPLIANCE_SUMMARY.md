@@ -12,6 +12,7 @@
 
 | Check | Result |
 |-------|--------|
+| Founding Builder vs packs | Softened “packs included/access” so it does not imply packs are paid-only (packs are MIT in Community). |
 | Claim accuracy vs CLI v0.3.0 | Aligned: backends mock/subprocess/openai; suite paths `examples/suites/*`; `sandrail demo`; secure defaults; JUnit optional. Softened marketing heading “What you can claim today” → “Shipped today.” |
 | Overreach (SaaS / SLA / customers / SOC2 / Promptfoo wins) | None found on site. FAQ states pre-revenue; Team gate TBD; Dedalus/Daytona category-only. |
 | Privacy / ToS | Marked **DRAFT — for lawyer review**; not legal advice; no fake compliance badges. |

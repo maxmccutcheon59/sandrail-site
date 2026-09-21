@@ -49,7 +49,7 @@ const tiers = [
     points: [
       "OSS Core",
       "Priority issue triage (best-effort, not SLA)",
-      "Suite packs included (ci_gate, tool_sandbox, redaction)",
+      "OSS Core includes shipped suite packs (ci_gate, tool_sandbox, redaction)",
       "Optional “founding supporter” listing only if you opt in — no fake logos",
     ],
     cta: {
@@ -167,8 +167,8 @@ export default function PricingPage() {
             <li>Deliverables via PR + short notes.</li>
           </ol>
           <p className="mt-6 text-xs text-[var(--text-dim)]">
-            Software remains MIT. Founding Builder fee is for priority + packs
-            access — say so plainly. Setup sprints: if blocked &gt;7 days by
+            Software remains MIT (incl. suite packs). Founding Builder fee is for
+            priority triage (best-effort, not SLA) — say so plainly. Setup sprints: if blocked &gt;7 days by
             missing access, pause or refund unused work (stated on invoice).
           </p>
         </div>
