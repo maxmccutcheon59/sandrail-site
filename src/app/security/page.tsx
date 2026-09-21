@@ -115,15 +115,18 @@ export default function SecurityPage() {
           </h2>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse text-left text-sm">
+              <caption className="sr-only">
+                Sandrail secure-by-default controls from SECURITY.md
+              </caption>
               <thead>
                 <tr className="border-b border-[var(--border)] text-[var(--text-dim)]">
-                  <th className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
                     Control
                   </th>
-                  <th className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
                     Default
                   </th>
-                  <th className="py-3 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 font-mono text-xs uppercase tracking-wider">
                     Notes
                   </th>
                 </tr>

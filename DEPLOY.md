@@ -72,3 +72,10 @@ done
 - No Stripe / email capture on this site
 - Founding CTAs are mailto to MaxMcCutcheon1@outlook.com
 - Do not force-push secrets
+
+## Security headers (GitHub Pages)
+
+GitHub Pages (legacy branch deploy) sets **HSTS** (`strict-transport-security`) at the edge. Custom headers such as `Content-Security-Policy`, `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, and `Permissions-Policy` **cannot** be configured for user Pages sites without a reverse proxy or moving off Pages. Documented limitation — not a product defect.
+
+This site is a static export (no cookies, no forms, no auth). Residual risk is limited to hosting/CDN request logs.
+

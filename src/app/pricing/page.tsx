@@ -49,7 +49,7 @@ const tiers = [
     points: [
       "OSS Core",
       "Priority issue triage (best-effort, not SLA)",
-      "Early access to suite packs when shipped",
+      "Suite packs included (ci_gate, tool_sandbox, redaction)",
       "Optional “founding supporter” listing only if you opt in — no fake logos",
     ],
     cta: {

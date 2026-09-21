@@ -10,15 +10,19 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <article className="mx-auto max-w-3xl px-5 py-16 sm:py-20">
-      <p className="section-label mb-3">Legal stub</p>
+      <p className="section-label mb-3">DRAFT · for lawyer review</p>
       <h1 className="text-3xl font-semibold tracking-tight">Privacy</h1>
       <p className="mt-2 text-sm text-[var(--text-dim)]">
-        Last updated: September 21, 2026 · Honest stub for a pre-revenue founder
-        tool
+        Last updated: September 21, 2026 · Pre-revenue founder tool
       </p>
-      <p className="mt-4 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] px-4 py-3 text-sm text-[var(--warn)]">
-        Not legal advice. Lawyer review required before commercial / SaaS use.
-        This is a minimal stub, not a full Privacy Policy.
+      <p
+        role="note"
+        className="mt-4 rounded-lg border border-[var(--warn)] bg-[var(--bg-elevated)] px-4 py-3 text-sm text-[var(--warn)]"
+      >
+        <strong className="font-semibold text-[var(--text)]">DRAFT — not legal advice.</strong>{" "}
+        Lawyer review required before commercial use or collecting personal data.
+        This is a minimal stub, not a full Privacy Policy. No SOC2 / GDPR
+        &quot;certified&quot; / ISO badges are claimed.
       </p>
 
       <div className="mt-10 space-y-8 text-sm leading-relaxed text-[var(--text-muted)]">

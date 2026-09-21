@@ -25,9 +25,9 @@ export const contactEmail = "MaxMcCutcheon1@outlook.com";
 
 export const cliRepo = "https://github.com/maxmccutcheon59/sandrail";
 export const cliRelease =
-  "https://github.com/maxmccutcheon59/sandrail/releases/tag/v0.2.0";
-export const productVersion = "0.2.0";
-export const productVersionLabel = "v0.2.0";
+  "https://github.com/maxmccutcheon59/sandrail/releases/tag/v0.3.0";
+export const productVersion = "0.3.0";
+export const productVersionLabel = "v0.3.0";
 
 export const watchwireSite =
   "https://maxmccutcheon59.github.io/watchwire-site/";

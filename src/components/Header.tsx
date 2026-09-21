@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[rgba(7,9,12,0.88)] backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-4">
-        <Link href="/" className="group flex shrink-0 items-center gap-2.5">
+        <Link href="/" className="group flex shrink-0 items-center gap-2.5" aria-label="Sandrail home">
           <span
             aria-hidden
             className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-[var(--accent-dim)] bg-[rgba(245,165,36,0.1)] font-mono text-sm text-[var(--accent)]"
@@ -22,19 +22,19 @@ export default function Header() {
         >
           <Link
             href="/install"
-            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] sm:px-3"
+            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] sm:px-3"
           >
             Install
           </Link>
           <Link
             href="/security"
-            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] sm:px-3"
+            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] sm:px-3"
           >
             Security
           </Link>
           <Link
             href="/pricing"
-            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] sm:px-3"
+            className="shrink-0 rounded-md px-2.5 py-1.5 hover:text-[var(--text)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] sm:px-3"
           >
             Pricing
           </Link>

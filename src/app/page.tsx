@@ -10,6 +10,7 @@ import {
 
 const shipped = [
   "`sandrail run` with JSON/YAML suites",
+  "Suite packs: `sandrail packs list|run` (ci_gate, tool_sandbox, redaction)",
   "Backends: mock, subprocess (allow-listed argv, shell=False), optional openai via env + --allow-network",
   "Defaults: network deny, timeout, cwd jail, capture, exit-code scoring, secret redaction",
   "Prompt-injection / redaction fixtures",
@@ -165,7 +166,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <p className="section-label mb-3">Shipped · {productVersionLabel}</p>
           <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-            What you can claim today
+            Shipped today
           </h2>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">
             {shipped.map((item) => (
@@ -206,15 +207,18 @@ export default function HomePage() {
           </p>
           <div className="mt-8 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse text-left text-sm">
+              <caption className="sr-only">
+                Sandrail secure-by-default sandbox controls
+              </caption>
               <thead>
                 <tr className="border-b border-[var(--border)] text-[var(--text-dim)]">
-                  <th className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
                     Control
                   </th>
-                  <th className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 pr-4 font-mono text-xs uppercase tracking-wider">
                     Default
                   </th>
-                  <th className="py-3 font-mono text-xs uppercase tracking-wider">
+                  <th scope="col" className="py-3 font-mono text-xs uppercase tracking-wider">
                     Notes
                   </th>
                 </tr>
@@ -265,12 +269,14 @@ export default function HomePage() {
           <h2 className="text-2xl font-semibold tracking-tight">
             Install and run a mock suite
           </h2>
-          <Terminal title="bash · v0.2.0">
+          <Terminal title="bash · v0.3.0">
 {`git clone https://github.com/maxmccutcheon59/sandrail.git
 cd sandrail
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
 sandrail demo
+sandrail packs list
+sandrail packs run ci_gate
 sandrail run examples/suites/smoke.yaml --backend mock`}
           </Terminal>
           <p className="mt-4 text-sm text-[var(--text-dim)]">

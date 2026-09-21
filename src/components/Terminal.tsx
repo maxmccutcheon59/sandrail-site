@@ -39,7 +39,7 @@ export default function Terminal({
         <button
           type="button"
           onClick={copy}
-          className="rounded px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-[var(--text-dim)] hover:bg-[rgba(245,165,36,0.08)] hover:text-[var(--accent)]"
+          className="rounded px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-[var(--text-dim)] hover:bg-[rgba(245,165,36,0.08)] hover:text-[var(--accent)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           aria-label={copied ? "Copied" : "Copy command"}
         >
           {copied ? "Copied" : "Copy"}

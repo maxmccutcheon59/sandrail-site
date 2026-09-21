@@ -6,7 +6,7 @@ import { cliRepo, cliRelease, productVersionLabel } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Install",
   description:
-    "Install Sandrail v0.2.0: pip install -e ., sandrail demo, smoke and sandbox suites.",
+    "Install Sandrail v0.3.0: pip install -e ., sandrail demo, smoke and sandbox suites.",
 };
 
 export default function InstallPage() {
@@ -57,14 +57,16 @@ export default function InstallPage() {
         <div className="mx-auto max-w-3xl px-5 py-16 sm:py-20">
           <p className="section-label mb-3">1 · Install + demo</p>
           <h2 className="text-2xl font-semibold tracking-tight">
-            60-second path (v0.2.0)
+            60-second path (v0.3.0)
           </h2>
           <Terminal title="bash">
 {`git clone https://github.com/maxmccutcheon59/sandrail.git
 cd sandrail
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
-sandrail demo`}
+sandrail demo
+sandrail packs list
+sandrail packs run ci_gate`}
           </Terminal>
         </div>
       </section>
@@ -75,7 +77,15 @@ sandrail demo`}
           <h2 className="text-2xl font-semibold tracking-tight">
             Pinned demo commands
           </h2>
-          <Terminal title="mock · subprocess · deny · timeout · redaction">
+          <Terminal title="suite packs (v0.3)">
+{`sandrail packs list
+sandrail packs run ci_gate
+sandrail packs run tool_sandbox
+sandrail packs run redaction
+# equivalent:
+sandrail run examples/packs/ci_gate/suite.yaml --backend mock`}
+          </Terminal>
+          <Terminal title="mock · subprocess · deny · timeout · redaction" className="mt-6">
 {`sandrail run examples/suites/smoke.yaml --backend mock
 sandrail run examples/suites/subprocess_smoke.yaml --backend subprocess
 sandrail run examples/suites/allowlist_deny.json --backend subprocess
