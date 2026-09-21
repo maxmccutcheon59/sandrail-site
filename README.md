@@ -18,7 +18,7 @@ Honest static pages for an early OSS CLI: install commands, sandbox defaults, se
 
 ## Security stance
 
-Product sandbox controls: [CLI SECURITY.md](https://github.com/maxmccutcheon59/sandrail/blob/main/SECURITY.md) · [COMPLIANCE_NOTES.md](https://github.com/maxmccutcheon59/sandrail/blob/main/COMPLIANCE_NOTES.md). Site summary: [SECURITY_COMPLIANCE_SUMMARY.md](./SECURITY_COMPLIANCE_SUMMARY.md).
+Product sandbox controls: [CLI SECURITY.md](https://github.com/maxmccutcheon59/sandrail/blob/main/SECURITY.md) · [COMPLIANCE_NOTES.md](https://github.com/maxmccutcheon59/sandrail/blob/main/COMPLIANCE_NOTES.md). Site: [SECURITY.md](./SECURITY.md) · [COMPLIANCE_NOTES.md](./COMPLIANCE_NOTES.md) · [SECURITY_COMPLIANCE_SUMMARY.md](./SECURITY_COMPLIANCE_SUMMARY.md).
 
 ## Install (local develop)
 
