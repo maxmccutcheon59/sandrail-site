@@ -69,7 +69,7 @@ done
 
 ## Notes
 
-- No Stripe / email capture on this site
+- No payments or email capture on this site
 - Contact CTAs are mailto to MaxMcCutcheon1@outlook.com
 - Do not force-push secrets
 

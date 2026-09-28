@@ -7,15 +7,15 @@
 - Static marketing site for the open-source Sandrail CLI (local-first eval harness).
 - GitHub Pages export — no app backend, accounts, or email capture forms.
 - Contact = mailto only (`MaxMcCutcheon1@outlook.com`).
-- Pre-revenue · early OSS · MIT · no fake traction / logos / ARR / waitlist counts.
+- Free, MIT-licensed early open source. Nothing is sold; no traction, logos, or customer claims.
 
 ## Data handled by this site
 
 | Data | Collected? | Stored by us? | Notes |
 |------|------------|---------------|-------|
-| Email / waitlist form | **No** | — | Mailto only |
+| Email / signup form | **No** | — | Mailto only |
 | Analytics / pixels | None intentional | — | Static Pages hosting |
-| Payment cards | **No** | — | Stripe deferred |
+| Payment cards | **No** | — | Nothing is sold; no checkout |
 | CLI runtime data | N/A | — | Operator machines only (CLI `COMPLIANCE_NOTES.md`) |
 
 ## Privacy / Terms stubs
@@ -32,8 +32,7 @@ Bounded to shipped CLI features (**v0.3.0**): suite packs, mock/subprocess/opena
 
 ## Open items for humans
 
-- [ ] Finalize Privacy / Terms if email capture or checkout is added
-- [ ] Confirm founding-offer copy before Stripe live keys
+- [ ] Finalize Privacy / Terms if email capture or checkout is ever added
 - [ ] WCAG 2.2 AA pass if positioning as a commercial product site
 
 Longer audit trail: [SECURITY_COMPLIANCE_SUMMARY.md](./SECURITY_COMPLIANCE_SUMMARY.md).
