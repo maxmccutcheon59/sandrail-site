@@ -2,7 +2,7 @@ import Link from "next/link";
 import Terminal from "@/components/Terminal";
 import {
   cliRepo,
-  mailtoFounding,
+  mailtoContact,
   productVersionLabel,
   watchwireSite,
   securityDoc,
@@ -73,7 +73,7 @@ const faqs = [
   },
   {
     q: "Do you have customers or logos?",
-    a: "Pre-revenue. No logos, no fake traction, no waitlist counts.",
+    a: "No. It is an early open-source project — no logos or traction claims.",
   },
   {
     q: "Can I scan other people’s systems?",
@@ -84,8 +84,8 @@ const faqs = [
     a: "Designed local-first. The CLI does not phone home or collect SaaS analytics. This marketing site is static GitHub Pages hosting only.",
   },
   {
-    q: "How do paid offers work?",
-    a: "Founding offer by email today (setup sprint or Founding Builder). Stripe later when Max enables live keys. Community OSS stays $0 forever. Team gate is TBD — if demand; not sold yet.",
+    q: "Does it cost anything?",
+    a: "No. Sandrail is free and MIT-licensed, including the suite packs. If you want help wiring it into your CI, email Max.",
   },
   {
     q: "Is this offensive / exploit tooling?",
@@ -128,13 +128,13 @@ export default function HomePage() {
             <Link href="/install" className="btn-ghost">
               Install
             </Link>
-            <a href={mailtoFounding} className="btn-ghost">
-              Email about founding offer
+            <a href={mailtoContact} className="btn-ghost">
+              Email Max
             </a>
           </div>
           <p className="mt-5 max-w-xl text-xs leading-relaxed text-[var(--text-dim)]">
-            Pre-revenue founder-builder · MIT · Authorized local use only · Not
-            a hosted VM sandbox cloud
+            Open source · MIT · Authorized local use only · Not a hosted VM
+            sandbox cloud
           </p>
         </div>
       </section>
@@ -383,11 +383,11 @@ sandrail run examples/suites/smoke.yaml --backend mock`}
         <div className="mx-auto max-w-6xl px-5 py-16 text-center sm:py-20">
           <p className="section-label mb-3">Next step</p>
           <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-            Clone the CLI or email about a setup sprint
+            Clone the CLI and try it
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-[var(--text-muted)]">
-            Community stays $0 forever. Founding offer by email — no waitlist,
-            no capture form. Stripe later when Max enables.
+            Free and MIT-licensed. Questions or want help wiring it into CI?
+            Email Max.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
@@ -398,12 +398,9 @@ sandrail run examples/suites/smoke.yaml --backend mock`}
             >
               GitHub · sandrail
             </a>
-            <a href={mailtoFounding} className="btn-ghost">
+            <a href={mailtoContact} className="btn-ghost">
               Email MaxMcCutcheon1@outlook.com
             </a>
-            <Link href="/pricing" className="btn-ghost">
-              Founding pricing
-            </Link>
           </div>
         </div>
       </section>

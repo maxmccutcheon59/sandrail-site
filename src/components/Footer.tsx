@@ -20,7 +20,7 @@ export default function Footer() {
             regressions with network denied by default.
           </p>
           <p className="mt-3 text-xs text-[var(--text-dim)]">
-            Founder: Max McCutcheon · Pre-revenue · Early OSS · MIT ·{" "}
+            Built by Max McCutcheon · Open source · MIT ·{" "}
             <a
               href={cliRepo}
               target="_blank"

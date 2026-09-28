@@ -37,8 +37,8 @@ export const securityDoc =
 export const complianceDoc =
   "https://github.com/maxmccutcheon59/sandrail/blob/main/COMPLIANCE_NOTES.md";
 
-export const mailtoFounding = `mailto:${contactEmail}?subject=${encodeURIComponent(
-  "Sandrail founding offer"
+export const mailtoContact = `mailto:${contactEmail}?subject=${encodeURIComponent(
+  "Sandrail"
 )}&body=${encodeURIComponent(
-  "Hi Max,\n\nI'd like to discuss:\n- [ ] Setup sprint $500 (Wire-up)\n- [ ] Setup sprint $1,000 (Gate)\n- [ ] Founding Builder ($99/yr or $19/mo)\n\nRepo URL / access plan:\nConfirmation I own or have written authorization for the target:\n\nThanks,\n"
+  "Hi Max,\n\nWhat I'm building / how I'd use Sandrail:\n\nWhere I'm stuck (if anywhere):\n\nThanks,\n"
 )}`;
