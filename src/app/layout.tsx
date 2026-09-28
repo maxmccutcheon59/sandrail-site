@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     template: "%s · Sandrail",
   },
   description:
-    "Local-first AI eval harness / agent sandbox CLI — suite-driven regressions with network denied by default. Early OSS · pre-revenue · MIT · v0.3.0.",
+    "Local-first AI eval harness / agent sandbox CLI — suite-driven regressions with network denied by default. Open source · MIT · v0.3.0.",
   metadataBase: new URL(siteUrl),
   openGraph: {
     title: "Sandrail — Local-first AI eval harness",
     description:
-      "Run YAML/JSON eval suites against mock, allow-listed subprocess, or optional OpenAI-compatible backends. Secure defaults. Early OSS · pre-revenue.",
+      "Run YAML/JSON eval suites against mock, allow-listed subprocess, or optional OpenAI-compatible backends. Secure defaults. Open source · MIT.",
     type: "website",
     url: siteUrl,
     siteName: "Sandrail",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sandrail — Local-first AI eval harness",
     description:
-      "Suite-driven agent regressions with network denied by default. Early OSS · pre-revenue · MIT · v0.3.0.",
+      "Suite-driven agent regressions with network denied by default. Open source · MIT · v0.3.0.",
     images: ["/og.png"],
   },
 };

@@ -5,7 +5,7 @@ import { contactEmail, cliRepo, securityDoc } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms",
   description:
-    "Sandrail terms stub — MIT CLI, authorized local use, founding offers by email. Not legal advice.",
+    "Sandrail terms stub — free MIT CLI, authorized local use only. Not legal advice.",
 };
 
 export default function TermsPage() {
@@ -14,7 +14,7 @@ export default function TermsPage() {
       <p className="section-label mb-3">DRAFT · for lawyer review</p>
       <h1 className="text-3xl font-semibold tracking-tight">Terms</h1>
       <p className="mt-2 text-sm text-[var(--text-dim)]">
-        Last updated: September 21, 2026 · Pre-revenue founder tool
+        Last updated: September 21, 2026 · Free open-source tool
       </p>
       <p
         role="note"
@@ -75,16 +75,11 @@ export default function TermsPage() {
 
         <section>
           <h2 className="mb-2 text-lg font-medium text-[var(--text)]">
-            Founding offers
+            Nothing for sale
           </h2>
           <p>
-            Setup sprint and Founding Builder prices on{" "}
-            <Link href="/pricing" className="text-[var(--accent)] hover:underline">
-              /pricing
-            </Link>{" "}
-            are founding hypotheses sold by email today. Scope is confirmed in
-            writing before payment. No SLA is implied by Founding Builder.
-            Community OSS remains free under MIT.
+            Sandrail is free under the MIT license. Nothing is sold on this
+            site, and no SLA or support commitment is implied.
           </p>
         </section>
 
@@ -94,8 +89,8 @@ export default function TermsPage() {
           </h2>
           <p>
             Software and this site are provided &quot;as is&quot; without warranty of
-            any kind, to the extent permitted by law. Early OSS; solo founder;
-            pre-revenue.
+            any kind, to the extent permitted by law. Early open-source software;
+            solo maintainer.
           </p>
         </section>
 

@@ -70,7 +70,7 @@ done
 ## Notes
 
 - No Stripe / email capture on this site
-- Founding CTAs are mailto to MaxMcCutcheon1@outlook.com
+- Contact CTAs are mailto to MaxMcCutcheon1@outlook.com
 - Do not force-push secrets
 
 ## Security headers (GitHub Pages)

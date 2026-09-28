@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <p className="section-label mb-3">DRAFT · for lawyer review</p>
       <h1 className="text-3xl font-semibold tracking-tight">Privacy</h1>
       <p className="mt-2 text-sm text-[var(--text-dim)]">
-        Last updated: September 21, 2026 · Pre-revenue founder tool
+        Last updated: September 21, 2026 · Free open-source tool
       </p>
       <p
         role="note"
@@ -82,13 +82,9 @@ export default function PrivacyPage() {
             </li>
             <li>We do not run a customer database or waitlist on this site.</li>
             <li>
-              If you email Max about a founding offer, that email is processed by
+              If you email Max, that email is processed by
               your mail provider and Max&apos;s inbox — not by a site form
               backend.
-            </li>
-            <li>
-              Stripe may process payments later when Max enables live keys;
-              until then founding offers are by email only.
             </li>
           </ul>
         </section>
